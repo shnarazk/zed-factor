@@ -1,7 +1,7 @@
 name = "Factor"
 grammar = "factor"
 path_suffixes = ["factor"]
-first_line_pattern = '^#!.*\\bfactor\\b'
+first_line_pattern = '^#!.*\bfactor\b'
 line_comments = ["! "]
 block_comment = { start = "/* ", prefix = "* ", end = " */", tab_size = 1 }
 brackets = [
