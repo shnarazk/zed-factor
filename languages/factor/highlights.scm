@@ -23,7 +23,8 @@
 ] @function.builtin
 
 (word_defn
-  word_name: (sname) @function)
+  .
+  (sname) @function)
 
 (stack_effect
   (effect (sname) @parameter))
