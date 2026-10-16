@@ -4,8 +4,9 @@ path_suffixes = ["factor"]
 first_line_pattern = '^#!.*\bfactor\b'
 line_comments = ["! "]
 block_comment = { start = "/* ", prefix = "* ", end = " */", tab_size = 1 }
-brackets = [
-    { start = "{", end = "}", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "(", end = ")", close = true, newline = true },
-]
+# brackets = [
+#     { start = "{", end = "}", close = true, newline = true },
+#     { start = "[", end = "]", close = true, newline = true },
+#     { start = "(", end = ")", close = true, newline = true },
+# ]
+tab_size = 2

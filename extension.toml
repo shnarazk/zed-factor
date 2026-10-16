@@ -3,9 +3,9 @@ name = "Factor"
 description = "Factor language support."
 version = "0.1.0"
 schema_version = 1
-authors = ["shnarazk"]
+authors = ["Narazaki Shuji"]
 repository = "https://github.com/shnarazk/zed-factor"
 
 [grammars.factor]
 repository = "https://github.com/shnarazk/tree-sitter-factor"
-commit = "400b78874b0835a78af70dd3f71c7362ce49436b"
+commit = "9ccdebcc2e50a4d618f4ac0dc91d00ded62a85bc"

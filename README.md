@@ -13,8 +13,8 @@ A [Zed](https://zed.dev) extension scaffold for the [Factor](https://factorcode.
 
 This scaffold uses:
 
-- Repository: <https://github.com/razetime/tree-sitter-factor>
-- Commit: `d58ec1abcced8be976845c58138cf395a9675c64`
+- Repository: <https://github.com/shnarazk/tree-sitter-factor>
+- Commit: `e3a55e73e66144018cbf701572e42b80711fe4c7`
 
 ## Build check
 
