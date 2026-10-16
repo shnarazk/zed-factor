@@ -7,5 +7,5 @@ authors = ["shnarazk"]
 repository = "https://github.com/shnarazk/zed-factor"
 
 [grammars.factor]
-repository = "https://github.com/razetime/tree-sitter-factor"
-commit = "d58ec1abcced8be976845c58138cf395a9675c64"
+repository = "https://github.com/shnarazk/tree-sitter-factor"
+commit = "400b78874b0835a78af70dd3f71c7362ce49436b"
