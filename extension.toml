@@ -8,4 +8,4 @@ repository = "https://github.com/shnarazk/zed-factor"
 
 [grammars.factor]
 repository = "https://github.com/shnarazk/tree-sitter-factor"
-commit = "9ccdebcc2e50a4d618f4ac0dc91d00ded62a85bc"
+commit = "561db3f32708ae18833fde0219ca7776b9d0dd0d"

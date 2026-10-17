@@ -1,23 +1,21 @@
 (keyword) @keyword
-; (number) @number
-; (string) @string
-; (bool) @boolean
 (comment) @comment
-
-[ (number) (string) (bool) ] @constant
-
-[
-  "(" ")"
-  "[" "]"
-  "{" "}"
-] @punctuation.bracket
 
 [ (import_defn) "USING:" (vocab_private) ] @property
 
 (word_defn
-   .
-  (sname) @function.method)
+   id:(sname) @function)
+
+(tuple_or_class_defn
+  id:(sname) @type)
+
+(other_syntax_defn
+  id:(sname) @type)
 
 (stack_effect
   (effect
     (sname) @variable.parameter))
+
+[ (number) (string) (bool) ] @constant
+
+[ "(" ")" "[" "]" "{" "}" "V{" ] @punctuation.bracket
