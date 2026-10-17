@@ -1,3 +1,6 @@
 ("[" @open "]" @close)
 ("{" @open "}" @close)
+("H{" @open "}" @close)
+("HI{" @open "}" @close)
+("V{" @open "}" @close)
 ("(" @open ")" @close)
