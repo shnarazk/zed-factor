@@ -13,8 +13,9 @@
   id:(sname) @type)
 
 (stack_effect
-  (effect
-    (sname) @variable.parameter))
+  input_stack:(effect) @variable.parameter
+  "--" @constant
+  output_stack:(effect) @variable.special)
 
 [ (number) (string) (bool) ] @constant
 
