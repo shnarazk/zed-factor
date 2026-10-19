@@ -6,6 +6,12 @@
 (word_defn
    id:(sname) @function)
 
+(method_defn
+  type:(sname) @type)
+
+(method_defn
+  id:(sname) @function.method)
+
 (tuple_or_class_defn
   id:(sname) @type)
 
