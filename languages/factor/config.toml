@@ -10,3 +10,7 @@ brackets = [
     { start = "(", end = ")", close = true, newline = false },
 ]
 tab_size = 2
+
+[language_servers.factor-lsp]
+name = "factor-lsp"
+languages = ["Factor"]
