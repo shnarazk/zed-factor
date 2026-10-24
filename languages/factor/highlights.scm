@@ -20,9 +20,9 @@
 
 (stack_effect
   input_stack:(effect) @variable.parameter
-  "--" @constant
+  (effect_delimiter) @constant
   output_stack:(effect) @variable.special)
 
 [ (number) (string) (bool) ] @constant
 
-[ "(" ")" "[" "]" "{" "}" "V{" ] @punctuation.bracket
+[ "(" ")" "[" "]" "{" "}" "V{" "H{" "HS{" ] @punctuation.bracket
