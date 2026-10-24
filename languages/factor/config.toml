@@ -5,7 +5,12 @@ first_line_pattern = '^#!.*\bfactor\b'
 line_comments = ["! "]
 block_comment = { start = "/* ", prefix = "* ", end = " */", tab_size = 1 }
 brackets = [
-    { start = "{", end = "}", close = true, newline = true },
-    { start = "[", end = "]", close = true, newline = true },
-    { start = "(", end = ")", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
 ]
+tab_size = 2
+
+[language_servers.factor-lsp]
+name = "factor-lsp"
+languages = ["Factor"]
