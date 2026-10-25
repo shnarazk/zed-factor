@@ -1,4 +1,5 @@
 ("[" @open "]" @close)
+("[|" @open "]" @close)
 ("{" @open "}" @close)
 ("H{" @open "}" @close)
 ("HS{" @open "}" @close)
