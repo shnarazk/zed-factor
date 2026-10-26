@@ -25,10 +25,19 @@
 (stack_effect
   (effect) @variable.parameter)
 
-(stack_effect
-  (effect_delimiter) @constant)
+; (stack_effect (effect_delimiter) @punctuation.delimiter)
 
-(block_l
+(stack_effect
+  (effect_delimiter) @operator)
+
+[ quotation_delimiter: "|"
+  quotation_delimiter: ":>"
+] @operator
+
+(quotation_l
   (effect) @variable.parameter)
 
-[ "(" ")" "[" "]" "{" "}" "V{" "H{" "HS{" ] @punctuation.bracket
+[ "[" "'[" "[|" "[let"
+  (block_c_begin) (block_p_begin)
+  ")"  "]" "}"
+] @punctuation.bracket
