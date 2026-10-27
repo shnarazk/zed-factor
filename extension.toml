@@ -8,7 +8,7 @@ repository = "https://github.com/shnarazk/zed-factor"
 
 [grammars.factor]
 repository = "https://github.com/shnarazk/tree-sitter-factor"
-commit = "388818a0aae9e79c418bdf14cc340a4ade0c4934"
+commit = "b06cb7222627b04ef60590435ee5afaca2eac882"
 
 [language_servers.factor-lsp]
 name = "factor-lsp"
