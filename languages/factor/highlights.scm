@@ -1,9 +1,10 @@
 (bool) @boolean
 (comment) @comment
 (character) @variant
-(keyword) @keyword
+(attribute) @attribute
 (number) @number
 (string) @string
+(regex) @string.regex
 
 (word_defn
    id:(sname) @function)
